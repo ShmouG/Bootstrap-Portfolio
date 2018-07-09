@@ -273,3 +273,6 @@ a:active { color: yellow; } */
     clear:both;
 } */
 
+audio {
+    opacity: .3;
+}
