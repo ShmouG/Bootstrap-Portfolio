@@ -46,13 +46,11 @@ header {
 body {
     font-family: 'Knewave';
     font-size: 24px;
-    /* color: darkmagenta; */
     line-height: 150%;
     background-image: url("polka-dots.png");
     margin: 40px;
     padding: 10px;
     border: 20px;
-    /* background: lightslategray; */
 }
 #main-bio {
   /* float: left; */
