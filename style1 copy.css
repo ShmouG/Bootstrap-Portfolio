@@ -34,6 +34,8 @@ header {
 }
 .navbar-brand {
     font-size: 34px;
+    color: violet !important;
+
 }
 #about-me {
     border-bottom: solid;
@@ -138,10 +140,10 @@ h3 {
 
 .text1 {
   margin: 10px;
-  width: 230px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   float: left;
-  background: url(https://picsum.photos/200/200/?random);
+  background: url(https://pbs.twimg.com/profile_images/1460758471/futurama_mashup_zoidberg_v6_400x400.jpg);
   background-size: cover;
   position: relative;
 }
@@ -158,10 +160,10 @@ h2 {
 }
 .text2 {
     margin: 10px;
-    width: 230px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     float: left;
-    background: url(https://picsum.photos/200/200/?random);
+    background: url(https://i.pinimg.com/originals/5b/68/cc/5b68cceb2221337701855187654dc5b2.gif);
     background-size: cover;
     position: relative;
   }
@@ -180,10 +182,10 @@ h2 {
   
 .text3 {
     margin: 10px;
-  width: 230px;
-  height: 150px;
+  width: 325px;
+  height: 250px;
   float: left;
-  background: url(https://picsum.photos/200);
+  background: url(https://nerdcoretheology.files.wordpress.com/2012/03/zoidberg_jesus_large_large.jpg);
   background-size: cover;
   position: relative;
 }
@@ -201,10 +203,10 @@ h2 {
 
 
 .text4 { margin: 10px;
-    width: 230px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     float: left;
-    background: url(https://picsum.photos/200/200/?random);
+    background: url(https://agroday.com.ua/wp-content/uploads/2017/12/QcohKrH.gif);
     background-size: cover;
     position: relative;
   }
@@ -222,10 +224,10 @@ h2 {
   
   
 .text5 { margin: 10px;
-    width: 230px;
-    height: 150px;
+    width: 250px;
+    height: 250px;
     float: left;
-    background: url(https://picsum.photos/200/200/?random);
+    background: url(https://i.kym-cdn.com/entries/icons/facebook/000/006/786/zoidberg.jpg);
     background-size: cover;
     position: relative;
   }
@@ -251,13 +253,19 @@ a:visited { color: blue; }
 a:hover { color: pink; }
 a:active { color: yellow; } */
 
-#footer {
-    height: 50px; 
-    width: 100%;
-    padding: 20px;
-    color: aqua;
 
- }
+/* #footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center; */
+
+
+
+
 /* 
 .clearfix:after {
     content:"";
