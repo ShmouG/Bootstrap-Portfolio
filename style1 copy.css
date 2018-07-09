@@ -1,8 +1,9 @@
-* {
+ * {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0px;
     box-sizing: border-box;
+    
 }
 
 #bio-image {
@@ -28,6 +29,12 @@
     margin: -50px; */
     
 /* } */
+header {
+    font-size: 44px;
+}
+.navbar-brand {
+    font-size: 34px;
+}
 #about-me {
     border-bottom: solid;
     /* width: %; */
@@ -57,13 +64,15 @@ body {
     width: 1024px; 
     background-color: #f2f2f2;   
 }
- 
-.btn { 
-    padding: 8px 10px;
+.bg-light {
+    background-color: rebeccapurple !important;
+}
+.nav-link, .btn {
+    padding: 6px 8px;
     border-radius: 5px;
     border: 1px solid darkblue;
     margin: 10px;
-    color: darkorchid;
+    color: darkorchid !important;
     background-color: aquamarine;
     list-style: none;
     
@@ -239,10 +248,10 @@ h2 {
     font-size: 44px;
 
 }
-a:link { color: black; }
+/* a:link { color: black; }
 a:visited { color: blue; }
 a:hover { color: pink; }
-a:active { color: yellow; }
+a:active { color: yellow; } */
 
 #footer {
     height: 50px; 
