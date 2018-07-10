@@ -1,10 +1,10 @@
- * {
+/* * {
     box-sizing: border-box;
     margin: 0 auto;
     padding: 0px;
     box-sizing: border-box;
     
-}
+} */
 
 #bio-image {
     width: 200px; 
@@ -14,21 +14,6 @@
     border: blueviolet 2px solid;
 }
 
-/* #name {
-    color: black;
-    font-family: 'Galada';
-    position: fixed;
-    background-color: darkmagenta;
-    opacity: .5;
-    top: 20px;
-    width: 250px;
-    font-size: 40px;
-    font-weight: 900;
-    text-align: left;
-    padding: 20px;
-    margin: -50px; */
-    
-/* } */
 header {
     font-size: 44px;
 }
@@ -50,9 +35,9 @@ body {
     font-size: 24px;
     line-height: 150%;
     background-image: url("polka-dots.png");
-    margin: 40px;
-    padding: 10px;
-    border: 20px;
+    margin: 0 auto;
+    padding: 40px;
+    border: 10px;
 }
 #main-bio {
   /* float: left; */
@@ -61,7 +46,7 @@ body {
     padding: 7%;
     margin: 0 auto;
     border: 10px;
-    width: 1024px; 
+    /* width: 1024px;  */
     background-color: #f2f2f2;   
 }
 .bg-light {
@@ -87,7 +72,7 @@ li {
 }
 
 input[type=text], select, textarea {
-    width: 100%; /* Full width */
+    width: 90%; /* Full width */
     padding: 12px; /* Some padding */  
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
@@ -255,16 +240,15 @@ a:hover { color: pink; }
 a:active { color: yellow; } */
 
 
-/* #footer {
+#footer {
     position: relative;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center; */
-
-
+    background-color: purple;
+    color: rgba(0, 0, 0, 0.75);
+    text-align: center;
+    clear: both;
+    margin: -30px;
+}
 
 
 /* 
