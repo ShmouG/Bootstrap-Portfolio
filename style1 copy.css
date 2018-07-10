@@ -38,6 +38,7 @@ body {
     margin: 0 auto;
     padding: 40px;
     border: 10px;
+    overflow: none;
 }
 #main-bio {
   /* float: left; */
@@ -79,7 +80,7 @@ input[type=text], select, textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -110,7 +111,7 @@ h3 {
     }
 
 #Portfolio {
-    width: 1250px;
+    /* width: 1250px; */
     margin: auto;
     color: blueviolet;
     /* border-bottom: solid; */
@@ -167,7 +168,7 @@ h2 {
   
   
 .text3 {
-    margin: 10px;
+  margin: 10px;
   width: 350px;
   height: 250px;
   float: left;
@@ -213,7 +214,7 @@ h2 {
     width: 250px;
     height: 250px;
     float: left;
-    background: url(https://i.kym-cdn.com/entries/icons/facebook/000/006/786/zoidberg.jpg);
+    background: url(https://makeameme.org/media/templates/250/tricky_zoidberg.jpg);
     background-size: cover;
     position: relative;
   }
