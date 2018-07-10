@@ -157,13 +157,14 @@ h2 {
   color: white;
   margin: 0;
   font: 14px Sans-Serif;
+  text-align: center;
 }
 .text2 {
     margin: 10px;
-    width: 250px;
+    width: 350px;
     height: 250px;
     float: left;
-    background: url(https://i.pinimg.com/originals/5b/68/cc/5b68cceb2221337701855187654dc5b2.gif);
+    background: url(https://media1.tenor.com/images/5205e59bbb3766baa007662cd07104e6/tenor.gif?itemid=3809970);
     background-size: cover;
     position: relative;
   }
@@ -182,7 +183,7 @@ h2 {
   
 .text3 {
     margin: 10px;
-  width: 325px;
+  width: 350px;
   height: 250px;
   float: left;
   background: url(https://nerdcoretheology.files.wordpress.com/2012/03/zoidberg_jesus_large_large.jpg);
@@ -274,5 +275,7 @@ a:active { color: yellow; } */
 } */
 
 audio {
-    opacity: .3;
+    opacity: .2;
+    /* width: 14px; */
+    /* overflow: inherit; */
 }
