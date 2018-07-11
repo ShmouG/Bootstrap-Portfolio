@@ -1,10 +1,4 @@
-/* * {
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0px;
-    box-sizing: border-box;
-    
-} */
+
 
 #bio-image {
     /* width: 200px; 
@@ -12,51 +6,32 @@
     margin-right: 20px;
     float: left; */
     border: blueviolet 2px solid;
+    margin: 20px;
 }
-
-/* header {
-    font-size: 44px;
-} */
 .navbar-brand  {
-    font-size: 34px;
+    font-size: 34px !important;
     color: violet !important;
     font-family: 'Knewave';
+    letter-spacing: 0.0625em;
 
 }
-#about-me {
-    border-bottom: solid;
-    /* width: %; */
-    margin: 20px;
-    padding: 40px; 
-    font-family: 'Knewave';
-    color: blueviolet;
-}
-/* body {
-    font-family: 'Knewave';
-    font-size: 24px;
-    line-height: 150%;
-    background-image: url("polka-dots.png");
-    margin: 0 auto;
-    padding: 40px;
-    border: 10px;
-    overflow: none;
+#top-navbar .navbar {
+    background-color: blueviolet !important;
+}  
+/* p {
+    background-color: white;
 } */
-.container-fluid {
+ body {  
+     
     background-image: url("polka-dots.png");
+ }
+.container-fluid {
+    /* background-image: url("polka-dots.png"); */
     font-family: 'Knewave';
 
 }
-/* #container {
-    padding: 7%;
-    margin: 0 auto;
-    border: 10px;
-    /* width: 1024px;  */
-    /* background-color: #f2f2f2;    */ */
-}
-.bg-light {
-    background-color: rebeccapurple !important;
-}
-.nav-link, .btn {
+
+.nav-link, .btn submit {
     padding: 6px 8px;
     border-radius: 5px;
     border: 1px solid darkblue;
@@ -66,6 +41,7 @@
     list-style: none;
     
 }
+
 li {
     display: inline-block;
     padding-right: 10px;
@@ -84,6 +60,7 @@ input[type=text], select, textarea {
     margin-top: 6px; /* Add a top margin */
     margin-bottom: 16px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    
 }
 
 /* Style the submit button with a specific background color etc */
@@ -94,11 +71,12 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    
 }
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: darksalmon;
 }
 
 /* Add a background color and some padding around the form */
@@ -114,13 +92,14 @@ h3 {
     }
 
 #Portfolio {
-    /* width: 1250px; */
-    margin: auto;
+    width: 100%;
+    /* margin: auto; */
     color: blueviolet;
     /* border-bottom: solid; */
+    clear: both;
 }
 .pic-set {
-    padding: 34px;
+    /* padding: 34px; */
     left: 0;
     position: static;
     top: 0;
@@ -131,7 +110,7 @@ h3 {
   margin: 10px;
   width: 250px;
   height: 250px;
-  float: left;
+  /* float: left; */
   background: url(https://pbs.twimg.com/profile_images/1460758471/futurama_mashup_zoidberg_v6_400x400.jpg);
   background-size: cover;
   position: relative;
@@ -143,75 +122,39 @@ h2 {
   left: 10px;
   background: rgba(0, 0, 0, 0.75);
   padding: 4px 8px;
-  color: white;
+  color: white !important;
   margin: 0;
-  font: 14px Sans-Serif;
+  font: 14px Sans-Serif !important;
   text-align: center;
 }
 .text2 {
     margin: 10px;
     width: 350px;
     height: 250px;
-    float: left;
+    /* float: left; */
     background: url(https://media1.tenor.com/images/5205e59bbb3766baa007662cd07104e6/tenor.gif?itemid=3809970);
     background-size: cover;
     position: relative;
   }
-  
-  h2 {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 4px 8px;
-    color: white;
-    margin: 0;
-    font: 14px Sans-Serif;
-  }
-  
-  
+
 .text3 {
   margin: 10px;
   width: 350px;
   height: 250px;
-  float: left;
+  /* float: left; */
   background: url(https://nerdcoretheology.files.wordpress.com/2012/03/zoidberg_jesus_large_large.jpg);
   background-size: cover;
   position: relative;
 }
 
-h2 {
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  background: rgba(0, 0, 0, 0.75);
-  padding: 4px 8px;
-  color: white;
-  margin: 0;
-  font: 14px Sans-Serif;
-}
-
-
 .text4 { margin: 10px;
     width: 250px;
     height: 250px;
-    float: left;
+    /* float: left; */
     background: url(https://agroday.com.ua/wp-content/uploads/2017/12/QcohKrH.gif);
     background-size: cover;
     position: relative;
   }
-  
-  h2 {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 4px 8px;
-    color: white;
-    margin: 0;
-    font: 14px Sans-Serif;
-  }
-  
   
 .text5 { margin: 10px;
     width: 250px;
@@ -222,48 +165,47 @@ h2 {
     position: relative;
   }
   
-  h2 {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-    background: rgba(0, 0, 0, 0.75);
-    padding: 4px 8px;
-    color: white;
-    margin: 0;
-    font: 14px Sans-Serif;
-  }
-  
-  
-#info {
+/* #info {
     font-size: 44px;
-
-}
-/* a:link { color: black; }
-a:visited { color: blue; }
-a:hover { color: pink; }
-a:active { color: yellow; } */
-
-
+} */
 #footer {
     position: relative;
-    width: 100%;
     background-color: purple;
-    color: rgba(0, 0, 0, 0.75);
     text-align: center;
-    clear: both;
-    margin: -30px;
+    /* clear: both; */
 }
-
-
-/* 
-.clearfix:after {
-    content:"";
-    display:table;
-    clear:both;
-} */
 
 audio {
     opacity: .2;
     /* width: 14px; */
-    /* overflow: inherit; */
+    /* overflow: none; */
+}
+.about-me {
+    /* padding: 20px; */
+    font-size: 20px;
+    background-color: white;
+    border: solid 2px cornflowerblue;
+    margin-top: 10px;
+}
+.fa {
+    font-size: 30px;
+    width: 34px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+} 
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+.fa-github {
+    background-color: cyan;
+    color: black;
+    margin: 20px;
+}
+.follow {
+    color: aqua;
+    font-family: 'Knewave';
 }
