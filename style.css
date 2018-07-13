@@ -173,8 +173,10 @@ h2 {
 } */
 #footer {
     position: relative;
-    background-color: purple;
+    background-color: rgb(177, 74, 197);
     text-align: center;
+    font-family: 'Knewave';
+    color: rgb(114, 245, 190);
     /* clear: both; */
 }
 
@@ -211,4 +213,19 @@ audio {
 .follow {
     color: aqua;
     font-family: 'Knewave';
+}
+@media only screen and (max-width: 980px) {
+    body {
+        background-color: lightblue;
+    }
+} 
+@media only screen and (max-width: 768px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 640px) {
+    body {
+        background-color: lightblue;
+    }
 }
