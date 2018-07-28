@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <title>Shmuli Gross</title>
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="./images/android-icon-192x192.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,6 +14,13 @@
 </head>
 
 <body>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+
+    <audio src="CatataFish.mp3" id="catata"></audio>
+    <audio src="Beegees.mp3" id="beegee"></audio>
+
+
     <div id="top-navbar">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <a class="navbar-brand" href="https://youtu.be/Z8uY79zQeak?t=7s" target="_blank">
@@ -66,34 +72,25 @@
             </div>
             <div class="row">
                 <div class="text1">
-                    <h2>
+                    <button>
                         <a href="https://www.wikihow.com/Dumpster-Dive" target="_blank"> Dumpster Diving</a>
-                    </h2>
+                    </button>
                 </div>
                 <div class="text2">
-                    <h2>Too Cool For School
-                        <audio controls>
-                            <source class="beegee" src="Beegees.mp3" type="audio/mpeg">
-                        </audio>
-                    </h2>
+                    <button>Too Cool For School</button>
                 </div>
                 <div class="text3">
-                    <h2>Holy of Holies
-                        <audio controls="controls">
-                            <source src="CatataFish.mp3" type="audio/mpeg">
-                        </audio>
-                    </h2>
+                    <button>Holy of Holies</button>
                 </div>
                 <div class="text4">
-                    <h2>Don't Judge Me</h2>
+                    <button>Don't Judge Me</button>
                 </div>
                 <div class="text5">
-                    <h2>
+                    <button>
                         <a href="https://youtu.be/-zw-mulqKBk" target="_blank">Lost Passion</a>
-                    </h2>
+                    </button>
                 </div>
             </div>
-
         </div>
         <div class="col-sm fa">
             <a href="https://github.com/ShmouG" target="_blank" class="fa fa-github"></a>
@@ -104,11 +101,13 @@
 
     <footer id="footer">Brought into existence by yours truly</footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script> -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
         crossorigin="anonymous"></script>
+    <script src="java.js"></script>
+
 </body>
-<html>
+
+</html>
