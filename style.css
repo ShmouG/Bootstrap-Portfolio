@@ -174,7 +174,7 @@ h2 {
     width: 250px;
     height: 250px;
     /* float: left; */
-    background: url(https://s.redditmedia.com/t5_7h4d9/styles/profileIcon_xdymnrjg18m01.jpg?fit=crop&crop=faces%2Centropy&arh=1.0&w=256&h=256&s=974c6318a9f9e26b924bca47a21ef858);
+    background: url(https://pbs.twimg.com/profile_images/644262622234284032/tpm8sb5J_400x400.jpg);
     background-size: cover;
     position: relative;
 }
@@ -201,12 +201,6 @@ h2 {
     /* clear: both; */
 }
 
-audio {
-    opacity: .2;
-    /* width: 14px; */
-    /* overflow: none; */
-}
-
 .about-me {
     /* padding: 20px; */
     font-size: 20px;
@@ -224,7 +218,7 @@ audio {
     border-radius: 50%;
 }
 
-.fa:hover {
+.fa:hover  {
     /* opacity: 0.7; */
     color: darkturquoise;
 }
