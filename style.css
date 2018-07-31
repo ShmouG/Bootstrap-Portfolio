@@ -174,7 +174,7 @@ h2 {
     width: 250px;
     height: 250px;
     /* float: left; */
-    background: url(https://agroday.com.ua/wp-content/uploads/2017/12/QcohKrH.gif);
+    background: url(https://s.redditmedia.com/t5_7h4d9/styles/profileIcon_xdymnrjg18m01.jpg?fit=crop&crop=faces%2Centropy&arh=1.0&w=256&h=256&s=974c6318a9f9e26b924bca47a21ef858);
     background-size: cover;
     position: relative;
 }
@@ -245,4 +245,7 @@ a:hover {
 }
 button:hover {
     background-color: indigo;
+}
+.portfolios {
+    border-radius: 10% !important;
 }

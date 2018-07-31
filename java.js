@@ -4,6 +4,7 @@ $(document).ready(() => {
 
     $('.text2').on('mouseenter', () => {
         beegee.play()
+     
     })
     $('.text2').on('mouseleave', () => {
         beegee.pause()
@@ -15,4 +16,13 @@ $(document).ready(() => {
         catata.pause()
 
     });
+    // $("#imgAnimate").hover(
+    //     function()
+    //     {
+    //         $(this).attr("src", "GIF URL HERE");
+    //     },
+    //     function()
+    //     {
+    //         $(this).attr("src", "STATIC IMAGE URL HERE");
+    //     });
 });
