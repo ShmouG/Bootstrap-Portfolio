@@ -130,6 +130,9 @@ h3 {
     background-size: cover;
     position: relative;
 }
+.text1:hover {
+    background-image: url(https://mlpforums.com/uploads/post_images/img-2566385-1-trashy+zoidberg.jpg);
+}
 
 h2 {
     position: absolute;
@@ -145,18 +148,18 @@ h2 {
 
 .text2 {
     margin: 10px;
-    width: 320px;
+    width: 300px;
     height: auto;
     /* float: left; */
-    background-image: url(https://i.ytimg.com/vi/VRMIx9cX73Y/maxresdefault.jpg);
+    background-image: url(https://media.giphy.com/media/l0Hlzm2YMSFzLLJZK/200w_s.gif);
     background-size: cover;
     position: relative;
 }
 .text2:hover {
     margin: 10px;
-    width: 350px;
+    width: 300px;
     height: auto;
-    background-image: url(https://media1.tenor.com/images/5205e59bbb3766baa007662cd07104e6/tenor.gif?itemid=3809970)
+    background-image: url(https://media.giphy.com/media/l0Hlzm2YMSFzLLJZK/giphy.webp)
 }
 
 .text3 {
@@ -168,6 +171,9 @@ h2 {
     background-size: cover;
     position: relative;
 }
+.text3:hover {
+    background-image: url(https://media.giphy.com/media/xDpTVxDKV6eEU/giphy.gif);
+}
 
 .text4 {
     margin: 10px;
@@ -178,7 +184,13 @@ h2 {
     background-size: cover;
     position: relative;
 }
-
+.text4:hover {
+    margin: 10px;
+    width: 250px;
+    height: auto;
+    background-image: url(https://pa1.narvii.com/6707/50bf65680aa52b48f3c6f3afe8ced414f165b1e2_128.gif);
+  
+}
 .text5 {
     margin: 10px;
     width: 250px;
@@ -188,7 +200,9 @@ h2 {
     background-size: cover;
     position: relative;
 }
-
+.text5:hover {
+    background-image: url(https://media.tenor.com/images/5a0b3347f2ed4a0803e5a58d3efd3174/tenor.gif)
+}
 /* #info {
     font-size: 44px;
 } */
@@ -235,11 +249,22 @@ h2 {
 }
 
 a:hover {
-    background-color: indigo;
+    background-color: indigo !important;
+    color: aqua !important;
+
 }
 button:hover {
-    background-color: indigo;
+    /* background-color: indigo; */
 }
 .portfolios {
     border-radius: 10% !important;
+}
+.portfolios audio {
+    display: none;
+
+}
+.portfolios:hover audio{
+display: block;
+position: absolute;
+bottom: 0;
 }
