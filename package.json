@@ -2,9 +2,9 @@
   "name": "bootstrap-portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "java.js",
+  "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "vows --spec"
   },
   "repository": {
     "type": "git",
