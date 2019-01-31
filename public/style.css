@@ -1,52 +1,65 @@
+* {
+    margin: 0;
+}
 .bio-image {
     /* width: 200px; 
-    height: 200px;
-    margin-right: 20px;
-    float: left; */
-    border: lightgreen 4px solid;
-    margin: 20px;
+    height: 200px; */
+    margin-top: 10px;
+    float: left;
+    border: lightgreen 2px solid;
+    /* margin: 20px; */
 }
 
 .navbar-brand {
-    font-size: 34px !important;
-    color: rgb(236, 122, 236) !important;
-    font-family: 'Knewave';
-    letter-spacing: 0.0620em;
+    font-size: 32px !important;
+    color: rgb(12, 9, 12) !important;
+    font-family: 'Bree Serif', serif;
+    /* letter-spacing: 0.0620em; */
 }
 
 #top-navbar .navbar {
-    background-color: blueviolet !important;
-    font-family: 'Knewave'
+    background-color: steelblue !important;
+    font-family: 'Bree Serif', serif;
+    overflow-x: auto;
 }
 
 /* p {
     background-color: white;
 } */
 body {
-    background-image: url("./images/grid.png");
+    background-color: rgb(46, 45, 45) !important;
+}
+html, body {
+    height: 100%;
 }
 
 .container-fluid,
-button, .portfolios {
+button,
+.portfolios {
     /* background-image: url("polka-dots.png"); */
-    font-family: 'Knewave' !important;
+    font-family: 'Bree Serif', serif;
 }
 
 .container-fluid,
 .container {
     margin: 0% auto;
-    height: 1024px;
+    height: 100%;
+    min-height: 100%;
+    height: auto !important;
+    margin: 0 auto -142px;
 }
 
-.nav-link, submit,
+.nav-link,
+submit,
 .port-btn {
     padding: 6px 8px;
     border-radius: 5px;
     border: 1px solid darkblue;
-    color: darkorchid !important;
+    color: darkorchid;
     background-color: aquamarine;
     list-style: none;
 }
+
 .nav-link {
     margin: 10px;
 }
@@ -90,17 +103,14 @@ input[type=submit] {
     cursor: pointer;
 }
 
-input[type=submit]:hover {
-    background-color: darksalmon;
-}
-
-#contact-info {
-    border-radius: 5px;
-    background-color: #f2f2f2;
+.contactme {
+    /* border-radius: 5px; */
+    background-color: #8d8787;
     padding: 20px;
-    position: relative;
+    /* position: relative; */
     margin: 20px;
-    font-family: 'Knewave';
+    font-family: 'Times New Roman', Times, serif !important;
+    text-align: center;
 }
 
 h3 {
@@ -128,14 +138,14 @@ h3 {
     margin: 10px;
     width: 250px;
     height: 250px;
-    background: url(https://pbs.twimg.com/profile_images/1460758471/futurama_mashup_zoidberg_v6_400x400.jpg);
+    background: url(https://media.giphy.com/media/3o6fIV2QVypNBtn7DW/giphy.gif);
     background-size: cover;
     position: relative;
 }
 
-.text1:hover {
+/* .text1:hover {
     background-image: url(https://mlpforums.com/uploads/post_images/img-2566385-1-trashy+zoidberg.jpg);
-}
+} */
 
 h2 {
     position: absolute;
@@ -151,30 +161,30 @@ h2 {
 
 .text2 {
     margin: 10px;
-    width: 300px;
+    width: 250px;
     height: 250px;
     /* float: left; */
-    background-image: url(https://media.giphy.com/media/l0Hlzm2YMSFzLLJZK/200w_s.gif);
-        background-size: cover;
+    background-image: url(logo_RGB_color_notext.png);
+    background-color: #232F3E;
+    background-size: cover;
     position: relative;
 }
 
-.text2:hover {
+/* .text2:hover {
     margin: 10px;
     width: 300px;
     height: auto;
     background-image: url(https://media.giphy.com/media/l0Hlzm2YMSFzLLJZK/giphy.webp)
-}
+} */
 
-.text3 {
+/* .text3 {
     margin: 10px;
     width: 350px;
     height: 250px;
-    /* float: left; */
     background: url(https://nerdcoretheology.files.wordpress.com/2012/03/zoidberg_jesus_large_large.jpg);
         background-size: cover;
     position: relative;
-}
+} */
 
 .text3:hover {
     background-image: url(https://media.giphy.com/media/xDpTVxDKV6eEU/giphy.gif);
@@ -182,11 +192,11 @@ h2 {
 
 .text4 {
     margin: 10px;
-    width: 250px;
+    width: 300px;
     height: 250px;
     /* float: left; */
     background: url(https://pbs.twimg.com/profile_images/644262622234284032/tpm8sb5J_400x400.jpg);
-        background-size: cover;
+    background-size: cover;
     position: relative;
 }
 
@@ -194,7 +204,7 @@ h2 {
     padding: 0%;
     border: 0;
     margin: 10px;
-    width: 250px;
+    width: 300px;
     height: auto;
     background-image: url(https://pa1.narvii.com/6707/50bf65680aa52b48f3c6f3afe8ced414f165b1e2_128.gif);
 }
@@ -204,26 +214,50 @@ h2 {
     width: 250px;
     height: 250px;
     float: left;
-    background: url(https://makeameme.org/media/templates/250/tricky_zoidberg.jpg);
-        background-size: cover;
+    background: url(https://media.giphy.com/media/84SFZf1BKgzeny1WxQ/giphy.gif);
+    background-size: cover;
     position: relative;
 }
 
-.text5:hover {
+/* .text5:hover {
     background-image: url(https://media.tenor.com/images/5a0b3347f2ed4a0803e5a58d3efd3174/tenor.gif)
-}
+} */
 
 .text6 {
-    background-color: slateblue;
+    background-color: rebeccapurple;
     width: 250px;
     height: 250px;
     margin: 10px;
+    font-family: 'Press Start 2P', cursive;
 }
-a:hover{
+
+.text7 {
+    background-color: mediumorchid;
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-image: url(bidet.png);
+    background-size: cover;
+    position: relative;
+    overflow: inherit;
+}
+
+.text8 {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    /* float: left; */
+    background: url(https://nextshark-vxdsockgvw3ki.stackpathdns.com/wp-content/uploads/2018/01/tumblr_nr2569nqX01qze3hdo1_r2_500.gif);
+    background-size: cover;
+    position: relative;
+}
+
+a:hover {
     color: aqua !important;
 
 }
-.ftext{
+
+.ftext {
     text-align: center;
     color: turquoise;
     position: relative;
@@ -232,21 +266,27 @@ a:hover{
     transform: translate(-50%, -50%);
     font-family: 'Press Start 2P', cursive;
 }
+
 /* #info {
     font-size: 44px;
 } */
-#footer {
+.footer {
     background-color: rgb(177, 74, 197);
     text-align: center;
     font-family: 'Knewave';
     color: rgb(114, 245, 190);
-    clear: both;
+    width: 100%;
+    margin-bottom: 0;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    z-index: -1;
 }
 
 .about-me {
     /* padding: 20px; */
     font-size: 20px;
-    background-color: white;
+    background-color: lightslategray;
     border: solid 2px cornflowerblue;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -262,25 +302,28 @@ a:hover{
 
 .fa:hover {
     /* opacity: 0.7; */
-    color: darkturquoise;
+    color: cyan !important;
 }
 
 .fa-github {
-    background-color: cyan;
-    color: black;
-    margin: 20px;
+    /* background-color: aliceblue; */
+    color: white;
+    margin: 10px;
+}
+
+.fa-linkedin {
+    /* background-image: url(./In-White-54px-TM.png) */
+    color: white;
+    margin: 10px;
 }
 
 .follow {
-    color: aqua;
-    font-family: 'Knewave';
+    margin: 10px;
+    color: cornflowerblue;
+    font-family: cursive;
 }
 
 .nav-link:hover {
-    background-color: indigo !important;
-    color: aqua !important;
-}
-.dropdown-item:hover{
     background-color: indigo !important;
     color: aqua !important;
 }
@@ -293,6 +336,23 @@ button:hover {
 
 .portfolios {
     border-radius: 10% !important;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.portfolios p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    transform: translateY(100%);
+    background-color: rgba(0, 0, 0, 0.75);
+    margin: 0;
+    transition: all .5s;
+    font-family: 'Bree Serif', serif;
+    z-index: 2;
 }
 
 .portfolios audio {
@@ -300,8 +360,16 @@ button:hover {
     opacity: .7;
 }
 
+.portfolios:hover p {
+    transform: translateY(0);
+}
+
 .portfolios:hover audio {
     display: block;
     position: absolute;
     bottom: 0;
+}
+
+.btn-block {
+    opacity: 0.9 !important;
 }
