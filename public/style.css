@@ -134,6 +134,15 @@ h3 {
     top: 0;
     margin: 34px;
 }
+.text0 {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    background: url(usmp.jpg);
+    background-size: cover;
+    position: relative;
+
+}
 
 .text1 {
     margin: 10px;
@@ -251,6 +260,16 @@ h2 {
     background: url(https://nextshark-vxdsockgvw3ki.stackpathdns.com/wp-content/uploads/2018/01/tumblr_nr2569nqX01qze3hdo1_r2_500.gif);
     background-size: cover;
     position: relative;
+}
+
+.text9 {
+    background: url(news-icon.png);
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    background-size: cover;
+    position: relative;
+    background-color: grey;
 }
 
 a:hover {
